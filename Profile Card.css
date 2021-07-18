@@ -1,0 +1,102 @@
+.contaner-main {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 10vh;
+
+}
+
+.card {
+    background-color: #fff;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.cover {
+    height: 80px;
+    background-image: url("C:\Users\ASUS\Pictures\card-cover.jpg");
+    background-color: aquamarine;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.card-image {
+    max-width: 100%;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#img1 {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: -25px;
+}
+
+
+.name-age {
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    font-family: 'Barlow', sans-serif;
+
+}
+
+#age {
+    padding-left: 5px;
+    font-family: 'Yomogi', cursive;
+    font-size: 16px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+}
+
+.loc {
+    font-family: 'Raleway', sans-serif;
+}
+
+.followers {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid teal;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 25px 10px;
+    margin-top: 30px;
+}
+
+
+th {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.f-num {
+    margin-top: 25px;
+    font-family: 'Karla', sans-serif;
+}
+
+.f-type {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(179, 170, 170);
+}
